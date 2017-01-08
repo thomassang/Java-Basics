@@ -1,0 +1,9 @@
+# include <stdio.h>
+main()
+{
+	int i;
+	printf("请输入一个十进制的数字：\n");
+	scanf("%d", &i );
+	printf("输出的十六进制数是： %x \n",i);
+
+}
