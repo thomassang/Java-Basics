@@ -1,0 +1,29 @@
+@CHARSET "UTF-8";
+
+body{
+	font-size:15px;/*设置统一的字号*/
+	width:280px;/*设置网页宽度*/
+	margin:10px;/*设置body与边框保持距离*/
+}
+
+.no2{
+	font-size:30px;
+}
+
+.no3{
+	padding-left:30px;/*与左边距保持距离*/
+}
+
+.no4{
+	border:1px dashed/*虚线*/
+}
+
+.note{
+	text-indent:20px;/*首行缩进*/
+	padding-top:15px;/*与上边距保持距离*/
+	padding-bottom:15px;/*与下边距保持距离*/
+}
+
+.img{
+	text-align:center/*图片居中*/
+}
