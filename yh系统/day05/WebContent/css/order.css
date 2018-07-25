@@ -1,0 +1,24 @@
+body{
+	font-size:14px;/*设置统一的字号*/
+	width:280px;/*设置网页宽度*/
+	margin:20px;/*设置body与网页边距*/
+}
+				
+.please{		/*定位网页中class是please的元素*/
+	font-size:30px;
+}
+				
+.me{
+	padding-left:70px;/*居中的效果*/
+}
+				
+.note{
+	text-indent:20px;/*缩进效果*/
+	padding-top:10px;/*与上边距的距离*/
+	padding-bottom:10px;/*与下边距的距离*/
+}
+
+.img{
+	text-align:center;/*文本水平居中*/
+}
+			

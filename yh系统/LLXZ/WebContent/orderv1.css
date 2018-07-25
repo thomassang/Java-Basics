@@ -1,0 +1,38 @@
+@CHARSET "UTF-8";
+body{
+	font-size:15px;/*设置统一字号*/
+	width:300px;/*设置网页宽度*/
+	margin:10px;/*设置body与边框保持距离*/
+}
+table{
+	border-collapse:collapse;/*合并边框*/
+	width:300px;/*宽度*/
+}
+
+.xian{
+	border-top:1px black solid;
+}
+
+.ziti{
+	font-weight:bold;
+}
+
+.no1{
+	text-align:center;/*文本居中*/
+	font-weight:bold;/*字体加粗*/
+	font-size:30px;
+}
+
+.no2{
+	text-align:center;
+	font-weight:bold;
+	font-size:25px;
+}
+
+.img{
+	text-align:center;
+}
+
+.juyou{
+	text-align:right;/*表格内容居右*/
+}

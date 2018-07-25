@@ -1,0 +1,101 @@
+<!DOCTYPE html>						<!-- 文档声明行，是网页文件 -->
+<html>								<!-- 标志着是一个网页文件，结束标签前面多一个/，必须一一匹配成对出现 -->
+	<head>								<!-- 网页的头部分，优先于body加载 -->
+		<meta charset="UTF-8">			<!-- 给网页设置编码，UTF-8是设置中文编码 -->
+			<title>永和大王（北三环）</title>			<!-- 网页的标题 -->
+			
+			<!-- link标签用于引入外部的css文件
+					ref用来指定文件路径
+										 -->
+			<link rel="stylesheet" href="order.css"/>
+			
+	</head>
+	
+<body>								<!-- 网页的体部分，写真正要显示的数据 -->
+							
+	<div>顾客联</div>
+	<div class="please">请您留意取餐账单号</div>
+	<div class="me">自取顾客联</div>
+	<div>永和大王（北三环西路店）</div>
+	<div>010-66888</div>
+	<div class="me">--结账单--</div>
+	<div class="please">账单号：P00090</div>
+	<div>账单类型:堂食</div>
+	<div>人数：1</div>
+	<div>收银员：张静</div>
+	<div>开单时间：2018-04-17 07:24:29</div>
+	<div>结账时间：2018-04-17 07:24:38</div>
+	
+	<hr style="border:1px dashed;">
+	
+	<div>
+		<table>				<!-- 向网页中插入表格 -->
+		
+			<tr>			<!-- 表格中的行元素 -->		
+				<td width=70px;>数量</td>	<!-- 表示表格中的列元素 -->
+				<td width=170px;>品项</td>
+				<td>金额</td>
+			</tr>
+			
+			<tr>
+				<td>1</td>
+				<td>玉米肉松蛋糕2P</td>
+				<td>8.00</td>
+			
+			</tr>
+			
+			<tr>
+				<td>&nbsp;</td>
+				<td>1X--玉米肉松蛋饼</td>
+				<td>&nbsp;</td>
+			
+			</tr>
+			
+			<tr>				
+				<td>&nbsp;</td>
+				<td>1X--现磨豆浆（热/甜）</td>
+				<td>&nbsp;</td>
+						
+			</tr>
+			
+		</table>
+	</div>
+	
+	<hr style="border:1px dashed;">
+	
+	<div>
+		<table>
+			<tr>
+				<td width=250px;>合计</td>
+				<td>8.00</td>
+			</tr>
+			<tr>
+				<td>微支付</td>
+				<td>8.00</td>
+			</tr>
+		</table>
+	</div>
+	
+	<hr style="border:1px dashed;">
+	
+	<div>打印时间：2018-04-17	07:24:38</div>
+	
+	<hr style="border:1px dashed;">
+	
+	<div class="note">
+		根据相关税法规定，
+		电子发票的开票日期同网上申请电子发票的日期，
+		如您需要当日的电子发票请务必在消费当日通过扫描下方二维码，
+		根据指引步骤开具您的增值税电子普通发票，此二维码30天有效，
+		扫码时请保持小票平整。
+	</div>
+	
+	<div class="img">
+		<img src="QR2.png">
+	</div><!-- 插入二维码的位置 -->
+	
+	<div>官网：www.youhe.com.cn</div>
+	<div>加盟热线：88-21-60769397	或	88-21-60769002</div>
+	
+</body>
+</html>
